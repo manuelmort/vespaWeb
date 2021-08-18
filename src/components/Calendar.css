@@ -24,21 +24,12 @@
 
 /* VARIABLES */
 
-:root {
-  --main-color: #022e57;
-  --text-color: #022e57;
-  --text-color-light: #0379e7;
-  
-  --bg-color: #00a5a5;
 
-}
 
 
 /* GENERAL */
 
-* {
-  box-sizing: border-box;
-}
+
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
@@ -47,7 +38,7 @@ body {
     line-height: 1.5;
     color: var(--text-color);
    
-    background: linear-gradient(90deg, rgba(0,26,36,1) 0%, rgba(94,177,126,1) 0%, rgba(75,200,231,1) 100%);
+    background: #fff;
     position: relative;
 }
 
