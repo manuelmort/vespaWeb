@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title: 'ToDo',
-        url: "/todo",
+        url: "/todolist",
         cName: "nav-links"
     }
 ]

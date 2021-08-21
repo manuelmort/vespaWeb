@@ -1,7 +1,5 @@
 import React from "react";
-import * as dateFns from "date-fns";
-import Clock from './Clock'
-import Navbar from './NavbarComponent/Navbar'
+import Clock from './ClockComponent/Clock'
 
 
 class Home extends React.Component {
@@ -25,39 +23,12 @@ class Home extends React.Component {
     }
 
 
-    time = {
-        currentMonth: new Date(),
-        currentDay:  new Date(),
-        currentTime: new Date()
-    }
-
-  
-    renderCurrentDay() {
-        const week = ["Sunday", "Monday", "Tuesday","Wednesday","Thursday", "Friday","Saturday"]
-        var dayElement = this.time.currentDay
-        
-        var dayOfWeek = week[dayElement.getDay()]
-        
-        return (dayOfWeek);
-
-    }
-    renderThis(){
-        
-        const dateFormat = "d MMMM yyyy"
-        
-        return (
+    render() {
+        return(
             <div>
-                <p>Today is:</p>
-                <span>{this.renderCurrentDay()}</span> <br></br>
-
                 <Clock/>
-                <span>{dateFns.format(this.time.currentMonth, dateFormat)}</span>
             </div>
         )
-    }
-
-    render() {
-        return this.renderThis()
     }
 }
 
