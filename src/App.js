@@ -2,11 +2,13 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./components/NavbarComponent/Navbar";
 
-import Home from "./components/Home";
-import Calendar from "./components/Calendar"
-import TodoList from "./components/TodoList/TodoList";
+
+
 
 import "./App.css"
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Contacts from "./components/pages/Contacts";
 
 
 
@@ -14,19 +16,23 @@ import "./App.css"
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Router>
-          <Navbar/>
+      
+        <div>
+          <Router>
+                <Navbar/>
+            
+                    <Switch>\
+                      <Route path ='/' exact component={Home}/>
+                      <Route path ='/home' exact component={Home}/>
+                      <Route path ='/about' exact component={About}/>
+                      <Route path ='/contacts' exact component={Contacts}/>
+
+                    </Switch>
+
+                 </Router>
           
-          <Switch>
-            <Route path={"/home"}  component={Home}/>
-            <Route path={"/calendar"}  component={Calendar}/>
-            <Route path={"/todolist"}  component={TodoList}/>
-
-          </Switch>
-
-        </Router>
-      </div>
+        </div>
+      
       
     )
   }

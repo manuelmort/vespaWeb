@@ -1,0 +1,24 @@
+.disc-widget {
+
+    
+    position:absolute;
+    top: 16%;
+    right: 75px;
+    
+    
+} 
+@media screen and (max-width: 960px) {
+
+    .disc-widget {
+
+        display: flex;
+        position:  relative;
+        
+        margin-left: 35%;
+       
+
+        
+        
+    } 
+
+}

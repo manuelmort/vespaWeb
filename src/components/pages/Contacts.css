@@ -1,0 +1,21 @@
+:root {
+
+    --idealWhite: aliceblue;
+}
+
+.emailTitle {
+    
+
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.emails {
+
+    color:var(--idealWhite);
+    width: 800px;
+    height: 300px;
+}
+
+.emailList {
+    text-decoration: none;
+}
