@@ -19,6 +19,8 @@
 }
 .aboutlist {
     list-style: none;
+    padding-left:0px
+    
 }
 
 .colorHighlight {
@@ -30,6 +32,10 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+
+
 
 @media screen and (max-width: 767px) {
     .mainTitle{

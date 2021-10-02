@@ -2,6 +2,8 @@
 
     --idealWhite: aliceblue;
     --smallfontGreen: #62b118;
+    --mainfont:  "Dank Mono", ui-monospace, monospace;
+    
 }
 
 .NavbarItems {
@@ -36,6 +38,7 @@ img {
   }
 .nav-links {
     color: var(--idealWhite);
+    font-family: var(--mainfont);
     font-size: 20px;
     text-decoration: none;
     padding: 0.5rem 1rem;

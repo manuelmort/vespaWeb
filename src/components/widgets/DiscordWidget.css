@@ -1,12 +1,23 @@
 .disc-widget {
 
-    
-    position:absolute;
+    position: fixed;
     top: 16%;
     right: 75px;
     
     
+    border-radius: 5px;
+
 } 
+
+.disc-widget :hover{
+    transition: transform 0.5s;
+    transform: scale(1.1,1.1);
+
+}
+
+
+
+
 @media screen and (max-width: 960px) {
 
     .disc-widget {

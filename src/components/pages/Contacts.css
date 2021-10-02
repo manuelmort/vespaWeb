@@ -1,21 +1,51 @@
 :root {
-
+    --background:hsl(204 100% 5%);
     --idealWhite: aliceblue;
 }
 
-.emailTitle {
-    
 
-    margin-top: 5%;
-    margin-left: 3%;
-}
 .emails {
 
+    margin-top: 5%;
     color:var(--idealWhite);
-    width: 800px;
-    height: 300px;
+  
 }
 
 .emailList {
     text-decoration: none;
+    position:absolute;
+
+}
+.emailbutton {
+    
+   
+    background-color: var(--background);
+    border-radius: 5px;
+
+    border:none;
+    
+}
+
+
+
+.mainEmail{
+    
+    background: linear-gradient(
+      to right,
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.mainEmail :hover{
+    background: linear-gradient(
+      to left, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
