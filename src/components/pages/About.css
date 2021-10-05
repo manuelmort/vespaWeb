@@ -9,6 +9,10 @@
     color:var(--idealWhite);
     width: 800px;
     height: 50px;
+    
+    border-radius: 200px;
+
+    
 }
 
 .facultySection p {
@@ -18,7 +22,7 @@
 
 .facultySection h3 {
     position: relative;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 3%;
     background: linear-gradient(
         to right, 
@@ -27,6 +31,7 @@
       );
       background-clip: text;
       -webkit-text-fill-color: transparent;
+    
 }
 .facultySection .field{
     position: relative;
@@ -51,12 +56,14 @@
 .EEEfaculty {
     position: absolute;
     top: 38%;
+    margin-top:4%;
     right: 400px;
 
     height: 200px
 }
 .MEfaculty {
     position: absolute;
+    margin-top:4%;
     top: 60%;
     right: 485px;
 
@@ -64,6 +71,7 @@
 }
 .CEfaculty {
     position: absolute;
+    margin-top:4%;
     top: 70%;
     right: 395px;
 

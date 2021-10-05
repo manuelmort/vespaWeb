@@ -9,13 +9,17 @@
 
 }
 .bodyIntro {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 2%;
     width: 800px;
     height: 300px;
 }
 .mainIntro {
+    margin-top: 5%;
+    margin-left: 2%;
     color: var(--idealWhite);
-    margin-top: 7%;
-    margin-left: 5%;
+    
 }
 .aboutlist {
     list-style: none;
@@ -37,13 +41,19 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
     .mainTitle{
         color: var(--smallfontGreen);
         margin-top: 15%;
         margin-left: 2%;
         text-align: center;
 
+    }
+    .mainIntro {
+
+      
+       
+        
     }
 
     

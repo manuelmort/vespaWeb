@@ -1,8 +1,11 @@
 .disc-widget {
 
-    position: fixed;
-    top: 16%;
-    right: 75px;
+    
+    position:absolute;
+    top:1%;
+    margin-top:10%;
+    right: 1%;
+    margin-right:5%;
     
     
     border-radius: 5px;
@@ -18,10 +21,10 @@
 
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
 
     .disc-widget {
-
+        margin-top: 10%;
         display: flex;
         position:  relative;
         
