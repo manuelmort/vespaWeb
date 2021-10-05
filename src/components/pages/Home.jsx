@@ -2,6 +2,7 @@ import React from "react";
 import HomeIntroText from "./HomeIntroText";
 import DiscordWidget from "../widgets/DiscordWidget";
 import Phone from "./Phone";
+import LinkIcons from "../widgets/LinkIcons";
 
 class Home extends React.Component {
 
@@ -27,6 +28,7 @@ class Home extends React.Component {
                <HomeIntroText/>
                <Phone/>
                <DiscordWidget/>
+                <LinkIcons/>
                
                
                 

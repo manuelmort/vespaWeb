@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./HomeIntroText.css"
 
 class HomeIntroText extends React.Component {
@@ -20,7 +19,7 @@ class HomeIntroText extends React.Component {
                     
                         <h2>Sacramento State's official ECS students club</h2>
 
-                        <h3>As the official student club for ECS majored students, we as representatives of CyberDyne VESPA seek to provided:</h3>
+                        <h3>As the official student club for ECS majored students, we as representatives of CyberDyne VESPA seek to provide:</h3>
                         <ul className = "aboutlist">
                             <p>A <span className="colorHighlight">Community for ECS Majors</span> to learn each other's major's skillsets without the need of multi-majoring</p>
                             <p>A friendly place were students can learn to do more with skillsets they already have.</p>
@@ -35,6 +34,16 @@ class HomeIntroText extends React.Component {
 
                 
                     
+                </div>
+                <div className="club-features">
+                    <h2 className="colorHighlight">Club features</h2>
+                    <ul className="featureList">
+                        <p>Study sectors for ALL ECS majors</p>
+                        <p>More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
+                        <p>Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>
+                        <p>Homework/Projects helps (within the rules of Sac State)</p>
+                        <p>Career helps such as resume review/advice, internship/job offers</p>
+                    </ul>
                 </div>
             </div>
         )

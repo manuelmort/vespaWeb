@@ -1,20 +1,12 @@
 import React from "react";
+
+
 import "./About.css"
+
 
 class Home extends React.Component {
 
-    //Calling BackEnd api
-    constructor(props){
-        super(props)
-        
-        this.state = { apiResponse : "" }
-    }
-
-    stscalendar = {
-        name: "",
-        dayOfWeek: ""
-    }
-
+   
 
 
 
@@ -69,6 +61,7 @@ class Home extends React.Component {
                             <p>Dr. Ghazan Khan (CE Dept. Chair)</p>
                         </ul>
                     </div>
+                    
                 
             </div>
         )

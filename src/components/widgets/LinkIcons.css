@@ -1,0 +1,27 @@
+:root {
+
+    --idealWhite: aliceblue;
+}
+
+.linkContainer {
+    position: absolute;
+    
+    margin-top: 35%;
+    margin-left: 70%;
+    
+}
+.linkContainer {
+   position: center;
+
+}
+.link-list nobr {
+    
+    color: var(--idealWhite);
+    display: inline;
+    padding: 30px;
+    font-size: 40px;
+    
+    
+    
+    
+}

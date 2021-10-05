@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./components/NavbarComponent/Navbar";
 
-
+import LinkIcons from "./components/widgets/LinkIcons";
 
 
 import "./App.css"
@@ -30,6 +30,8 @@ class App extends React.Component {
                     </Switch>
 
                  </Router>
+                 <LinkIcons/>
+
           
         </div>
       

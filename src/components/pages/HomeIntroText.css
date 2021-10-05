@@ -39,7 +39,21 @@
 
 
 
+.club-features {
+    position:absolute;
+    
+    
+    margin-top:5%;
+    left: 1%;
+    margin-left:30%;
 
+}
+.featureList {
+    list-style: none;
+    color: var(--idealWhite);
+    padding-left:0px
+
+}
 
 @media screen and (max-width: 1000px) {
     .mainTitle{
@@ -49,12 +63,7 @@
         text-align: center;
 
     }
-    .mainIntro {
-
-      
-       
-        
-    }
+    
 
     
     
