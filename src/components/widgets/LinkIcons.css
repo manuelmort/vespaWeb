@@ -4,10 +4,12 @@
 }
 
 .linkContainer {
-    position: absolute;
+    position:relative;
     
-    margin-top: 35%;
+    margin-top: 50%;
+    margin-bottom: 0;
     margin-left: 70%;
+    justify-content: end;
     
 }
 .linkContainer {
@@ -24,4 +26,25 @@
     
     
     
+}
+@media screen and (max-width: 800px) {
+    .linkContainer {
+        position: absolute;
+        margin-top: 150%;
+       
+    }
+    .linkContainer {
+        position: center;
+    }
+    .link-list nobr {
+    
+        color: var(--idealWhite);
+        display: inline;
+        padding: 0;
+        font-size: 40px;
+        
+        
+        
+        
+    }
 }

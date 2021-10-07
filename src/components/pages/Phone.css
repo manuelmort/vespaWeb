@@ -19,3 +19,31 @@
 
 
 }
+
+@media screen and (max-width: 800px) {
+    .phonescreen {
+        
+        position: relative;
+        border-radius: 200px;
+        margin: 0 auto;
+        margin-top: 300%;
+        
+        
+        
+    }
+    .phone-border {
+        position: absolute;
+        height: 500px;
+        width: 300px;
+        margin-top: 1%;
+    
+    }
+    .phone-video{
+        position: absolute;
+        overflow: hidden;
+        margin-top: 2.6%;
+        margin-left: 35px;
+    
+    
+    }
+}

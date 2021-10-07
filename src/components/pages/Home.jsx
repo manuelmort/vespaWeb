@@ -28,7 +28,7 @@ class Home extends React.Component {
                <HomeIntroText/>
                <Phone/>
                <DiscordWidget/>
-                <LinkIcons/>
+                
                
                
                 
