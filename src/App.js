@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Navbar from "./components/NavbarComponent/Navbar";
 
 import LinkIcons from "./components/widgets/LinkIcons";
@@ -18,20 +18,19 @@ class App extends React.Component {
     return (
       
         <div>
-          <Router>
-                <Navbar/>
+          
+          <Navbar/>
             
-                    <Switch>\
-                      <Route path ='' exact component={Home}/>
-                      
-                      <Route path ='/home' exact component={Home}/>
-                      <Route path ='/about' exact component={About}/>
-                      <Route path ='/contacts' exact component={Contacts}/>
+            <Switch>
+              <Route path ='/' exact component={Home}/>
+              <Route path ='/home' exact component={Home}/>
+              <Route path ='/about' exact component={About}/>
+              <Route path ='/contacts' exact component={Contacts}/>
 
-                    </Switch>
+            </Switch>
 
-                 </Router>
-                 <LinkIcons/>
+                 
+            <LinkIcons/>
 
           
         </div>
