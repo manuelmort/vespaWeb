@@ -9,7 +9,7 @@
     
     
     border-radius: 5px;
-
+    z-index: 0;
 } 
 
 .disc-widget :hover{
@@ -21,14 +21,30 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:  960px) {
 
     .disc-widget {
         
         
         
-        position: absolute;
-        margin-top: 320%;
+        position: relative;
+        margin-top: 10%;
+        margin-left: 20%;
+
+        
+        
+    } 
+
+}
+@media screen and (max-width:  400px) {
+
+    .disc-widget {
+        
+        
+        
+        position: relative;
+        margin-top: 15%;
+        margin-left: auto;
 
         
         

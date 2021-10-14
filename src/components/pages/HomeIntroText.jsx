@@ -11,6 +11,7 @@ class HomeIntroText extends React.Component {
 
                 <div className="mainTitle">
                     <h1 className= "welcome">Welcome to CyberDyne VESPA & ACE VESPA</h1>
+                    <hr className="homehr1"></hr>
 
                 </div>
                 <div className= "bodyIntro">
@@ -35,6 +36,7 @@ class HomeIntroText extends React.Component {
                 
                     
                 </div>
+                <hr className="homehr2"></hr>
                 <div className="club-features">
                     <h2 className="colorHighlight">Club features</h2>
                     <ul className="featureList">
@@ -45,6 +47,7 @@ class HomeIntroText extends React.Component {
                         <p>Career helps such as resume review/advice, internship/job offers</p>
                     </ul>
                 </div>
+                <hr className="homehr3"></hr>
             </div>
         )
     }

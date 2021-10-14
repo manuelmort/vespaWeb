@@ -10,7 +10,7 @@
 }
 .bodyIntro {
     position: relative;
-   
+    display: flex;
     margin-top: 5%;
     margin-left: 2%;
     max-width: 800px;
@@ -38,13 +38,11 @@
     -webkit-text-fill-color: transparent;
 }
 
-
-
 .club-features {
     position:absolute;
     
     
-    margin-top:5%;
+    margin-top:10%;
     left: 1%;
     margin-left:30%;
 
@@ -55,8 +53,17 @@
     padding-left:0px
 
 }
+.homehr1{
+    display: none;
+}
+.homehr2{
+    display: none;
+}
+.homehr3{
+    display: none;
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
     .mainTitle{
         color: var(--smallfontGreen);
         margin-top: 15%;
@@ -76,9 +83,75 @@
     .club-features {
         position: absolute;
         margin:0 auto;
-        margin-top: 70%;
+        margin-top: 5%;
+        max-width :500px;
+        
+        
+        
+    }
+    .homehr1{
+        display: flex;
+        width: 90%;
+        margin-top: 10%;
+    }
+    .homehr2{
+        display: flex;
+        position:relative;
+        width: 90%;
+        margin-top: 35%;  
+    }
+    .homehr3{
+        display:flex;
+        position:relative;
+        width: 90%;
+        margin-top: 80%;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 400px) {
+    .mainTitle{
+        color: var(--smallfontGreen);
+        margin-top: 20%;
+        margin-left: 2%;
+        text-align: center;
+        
+
+    }
+    .mainIntro {
+        
+        
+        max-width :500px;
+        
+        margin: 0 auto;
+        
+    }
+    .club-features {
+        position: absolute;
+        margin:0 auto;
+        margin-top: 5%;
         max-width :500px;
     }
+    .homehr1{
+        display: flex;
+        width: 90%;
+        margin-top: 10%;
+    }
+    .homehr2{
+        display: flex;
+        position:relative;
+        width: 90%;
+        margin-top: 90%;  
+    }
+    .homehr3{
+        display:flex;
+        position:relative;
+        width: 90%;
+        margin-top: 110%;
+    }
+
 
     
 

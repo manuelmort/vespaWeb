@@ -16,12 +16,14 @@ class Home extends React.Component {
                 <h1 className= "aboutTitle">About Us</h1>
                 <p className="founderBio">
                 <span className="vespa">VESPA</span> was established by a student with the Discord alias "GreatLeader_Technus" (ZERO.RX) on 07/28/17 <br></br>
-                <img className="oldmanzero" src ="oldmanzero.png"></img>
                  who transfered from Solano Community College. The original CyberDyne + ACE is called FALCO, which was created by the same person for Solano Community College.
                 </p>
+                <hr className="abouthr1"></hr>
+                <img className="oldmanzero" src ="oldmanzero.png"></img>
 
 
 
+                <hr className="abouthr2"></hr>
 
                 <div className="facultySection">
                     <h3 className="facultySupporters">CyberDyne VESPA Faculty Supporters</h3>

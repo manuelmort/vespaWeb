@@ -27,21 +27,51 @@
     
     
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
     .linkContainer {
-        position: absolute;
-        margin-top: 150%;
+        position: relative;
+        margin-top: 200%;
+        display: flex;
+        
        
     }
     .linkContainer {
         position: center;
     }
     .link-list nobr {
-    
+        
+        margin-right:auto;
         color: var(--idealWhite);
         display: inline;
-        padding: 0;
+        display: flex;
+        padding: 20px;
         font-size: 40px;
+        
+        
+        
+        
+    }
+}
+@media screen and (max-width: 400px) {
+    .linkContainer {
+        position: relative;
+        margin-top: 25%;
+        
+        
+       
+    }
+    .linkContainer {
+        position: center;
+    }
+    .link-list nobr {
+        
+        
+
+        color: var(--idealWhite);
+        display: inline;
+        
+        padding: 30px;
+        font-size: 30px;
         
         
         
