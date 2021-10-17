@@ -2,7 +2,7 @@ import React from "react";
 
 
 import "./About.css"
-import Phone from "./Phone";
+
 
 
 class Home extends React.Component {

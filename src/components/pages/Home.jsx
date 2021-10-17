@@ -1,6 +1,7 @@
 import React from "react";
 import DiscordWidget from "../widgets/DiscordWidget";
 import Phone from "./Phone"
+
 class HomeIntroText extends React.Component {
 
 
@@ -12,7 +13,7 @@ class HomeIntroText extends React.Component {
             <div class="container">
 
                 <div className="card w-100 bg-transparent p-3">
-                    <h1 className= "welcome">Welcome to CyberDyne VESPA & ACE VESPA</h1>
+                    <h1 className= "">Welcome to CyberDyne VESPA & ACE VESPA</h1>
                     
 
                 </div>

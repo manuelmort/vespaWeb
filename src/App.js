@@ -2,8 +2,8 @@ import React from "react"
 import { Switch, Route } from 'react-router-dom';
 import Navbar from "./components/NavbarComponent/Navbar";
 
-import LinkIcons from "./components/widgets/LinkIcons";
-import { Container } from 'react-bootstrap'
+
+
 
 import "./App.css"
 import Home from "./components/pages/Home";
@@ -34,7 +34,7 @@ class App extends React.Component {
             </Switch>
 
                  
-            <LinkIcons/>
+           
 
           
         </div>
