@@ -14,6 +14,11 @@ export const MenuItems = [
         title: 'Contacts',
         url: "/contacts",
         cName: "nav-links"
+    },
+    {
+        title: 'Sign Up',
+        url: "/signup",
+        cName: "nav-links"
     }
 ]
 

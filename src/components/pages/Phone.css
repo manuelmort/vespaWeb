@@ -1,6 +1,7 @@
 
 .phonescreen {
     
+   
     border-radius: 200px;
     margin-top: 5%;
 }
@@ -14,19 +15,15 @@
 .phone-video{
     position: absolute;
     overflow: hidden;
-    margin-top: 2.6%;
+    margin-top: 2.8%;
     margin-left: 35px;
+    border-radius: 70px;
 
 
 }
-
-@media screen and (max-width: 970px) {
-    .phonescreen {
-        
-        display: none;
-        
-        
-        
-    }
+@media screen and (max-width: 770px) {
     
+    .phonescreen {
+        display: none;
+    }
 }

@@ -1,40 +1,76 @@
 import React from "react";
-import HomeIntroText from "./HomeIntroText";
 import DiscordWidget from "../widgets/DiscordWidget";
-import Phone from "./Phone";
-
-
-class Home extends React.Component {
-
-    //Calling BackEnd api
-    constructor(props){
-        super(props)
-        
-        this.state = { apiResponse : "" }
-    }
-
-    stscalendar = {
-        name: "",
-        dayOfWeek: ""
-    }
-
+import Phone from "./Phone"
+class HomeIntroText extends React.Component {
 
 
 
     render() {
         return(
-            <div >
+            
+
+            <div class="container">
+
+                <div className="card w-100 bg-transparent p-3">
+                    <h1 className= "welcome">Welcome to CyberDyne VESPA & ACE VESPA</h1>
+                    
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-9">
+                    <div class="col">
+                        <div className= "card w-100 bg-transparent col px-md-5">
+                            
+                            <div className= "mainIntro">
+                            
+                                <h2>Sacramento State's official ECS students club</h2>
+
+                                <h3 class="list-group-item text-white bg-transparent">As the official student club for ECS majored students, we as representatives of CyberDyne VESPA seek to provide:</h3>
+                                <ul class = "list-group">
+                                    <p class="list-group-item text-white bg-transparent">A <span className="colorHighlight">Community for ECS Majors</span> to learn each other's major's skillsets without the need of multi-majoring</p>
+                                    <p class="list-group-item text-white bg-transparent">A friendly place were students can learn to do more with skillsets they already have.</p>
+                                    <p class="list-group-item text-white bg-transparent">Neccessary career helps for students to ensure a better chance at success in a growing market.</p>
+                                    <p class="list-group-item text-white bg-transparent">A relaxing and fun zone for ECS Majors to kickback, relax, enjoy healthy Japanese Media (Anime, Manga, etc.), or go gaming!</p>
+                                </ul>
+
+                            
+                            
+                            </div>
+                        </div>
+                        
+
+                    
+                        
+                    </div>
+                    
+                    <div class="col px-md-5">
+                        
+                        <DiscordWidget/>
+
+                    </div>
+                    
+                    <div class="col">
+                        <Phone/>
+                    </div>
+
+                    <div class="col ">
                 
-               <HomeIntroText/>
-               <Phone/>
-               <DiscordWidget/>
-                
-               
-               
-                
+                        <div className="card w-100 bg-transparent">
+                            <h2 className="card-body">Club features</h2>
+                            <ul class = "list-group">
+                                <p class="list-group-item text-white bg-transparent" >Study sectors for ALL ECS majors</p>
+                                <p class="list-group-item text-white bg-transparent">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
+                                <p class="list-group-item text-white bg-transparent">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>
+                                <p class="list-group-item text-white bg-transparent">Homework/Projects helps (within the rules of Sac State)</p>
+                                <p class="list-group-item text-white bg-transparent">Career helps such as resume review/advice, internship/job offers</p>
+                            </ul>
+                        </div>
+                    </div>
+            
+
+                </div>
             </div>
         )
     }
 }
 
-export default Home;
+export default HomeIntroText;

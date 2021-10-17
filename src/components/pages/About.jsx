@@ -2,6 +2,7 @@ import React from "react";
 
 
 import "./About.css"
+import Phone from "./Phone";
 
 
 class Home extends React.Component {
@@ -12,59 +13,75 @@ class Home extends React.Component {
 
     render() {
         return(
-            <div className="aboutBody">
-                <h1 className= "aboutTitle">About Us</h1>
-                <p className="founderBio">
-                <span className="vespa">VESPA</span> was established by a student with the Discord alias "GreatLeader_Technus" (ZERO.RX) on 07/28/17 <br></br>
-                 who transfered from Solano Community College. The original CyberDyne + ACE is called FALCO, which was created by the same person for Solano Community College.
-                </p>
-                <hr className="abouthr1"></hr>
-                <img className="oldmanzero" src ="oldmanzero.png"></img>
+            <div class="container p-5">
+                <div className="row row-cols-1 row-cols-md-2 g-9">
 
-
-
-                <hr className="abouthr2"></hr>
-
-                <div className="facultySection">
-                    <h3 className="facultySupporters">CyberDyne VESPA Faculty Supporters</h3>
-                        <ul className ="CSCfaculty">
-                            <p className="field">Computer Science</p>
-                            <p>Anna Baynes (on Server)</p>
-                            <p>Ruthann Biel</p>
-                            <p>Sankar Srivatsa</p>
-                            <p>Ben White (Retired, but still here on Server)</p>
-                            <p>Xiaoyan Sun</p>
-                            <p>Jun Dai (was on server)</p>
-                            <p>Gita Faroughi</p>
-                            <p>Dr. Nikrouz Faroughi (CSC Dept. Chair)</p>
-                            
-                            
-                        </ul>
-                        <ul className="CPEfaculty">
-                            <p className="field">Computer Engineering</p>
-                            <p>Dennis Dahlquist (Our main Advisor; on Server)</p>
-                            <p>Kris Moyer (Our IPC Advisor; on Server)</p>
-                            <p>Dr. Praveen Meduri (CPE Dept Chair; on Server)</p>
-                        </ul>
-                        <ul className="EEEfaculty">
-                            <p className="field">Electrical Engineering</p>
-                            <p>Dr. Perry Heedley</p>
-                            <p>Dr. Milica Markovic (On Server)</p>
-                            <p>Dr. Tracy Toups (On Server)</p>
-                            <p>Prof. Jay Mearns</p>
-
-                        </ul>
-                        <ul className="MEfaculty">
-                            <p className="field">Mechanical Engineering</p>
-                            <p>Mike Bell</p>
-                        </ul>
-                        <ul className="CEfaculty">
-                            <p className="field">Civil Engineering</p>
-                            <p>Dr. Ghazan Khan (CE Dept. Chair)</p>
-                        </ul>
+                <div class="row">
+                    <div>
+                        <h1>
+                            About Us
+                        </h1>
+                        <p class="text-white p-3"> VESPA was established by a student with the Discord alias "GreatLeader_Technus" (ZERO.RX) on 07/28/17
+                        who transfered from Solano Community College. The original CyberDyne + ACE is called FALCO, which was created by the same person for Solano Community College.
+                        </p>
                     </div>
+                </div>
+                <div class="row p-3">
+                    <img class="w-70" src="oldmanzero.png"/>
+                </div>
+                <div class="row p-3">
                     
+                    <h1 class="list-group-item text-white bg-transparent">CyberDyne VESPA Faculty Supporters </h1>
+                    <ul class="list-group">
+                        <h2 class="list-group-item text-white bg-transparent">Computer Science</h2>
+                        <li class="list-group-item text-white bg-transparent">Anna Baynes (on Server)</li>
+                        <li class="list-group-item text-white bg-transparent">Ruthann Biel</li>
+                        <li class="list-group-item text-white bg-transparent">Sankar Srivatsa</li>
+                        <li class="list-group-item text-white bg-transparent">Ben White (Retired, but still here on Server)
+                        </li>
+                        <li class="list-group-item text-white bg-transparent">Xiaoyan Sun</li>
+                        <li class="list-group-item text-white bg-transparent">Jun Dai (was on server)</li>
+                        <li class="list-group-item text-white bg-transparent">Gita Faroughi</li>
+                        <li class="list-group-item text-white bg-transparent">Dr. Nikrouz Faroughi (CSC Dept. Chair) </li>
+                    </ul>
+
+        
+                    <ul class="list-group">
+                        <h2 class="list-group-item text-white bg-transparent">Computer Engineering</h2>
+                        <li class="list-group-item text-white bg-transparent">Dennis Dahlquist (Our main Advisor; on Server)</li>
+                        <li class="list-group-item text-white bg-transparent">Kris Moyer (Our IPC Advisor; on Server)</li>
+                        <li class="list-group-item text-white bg-transparent">Dr. Praveen Meduri (CPE Dept Chair; on Server)</li>
+                        
+                    </ul>
+                </div>
+                <div class="row p-3">
+
+                    <ul class="list-group">
+                            <h2 class="list-group-item">Electrical Engineering</h2>
+                            <li class="list-group-item text-white bg-transparent">Dr. Perry Heedley</li>
+                            <li class="list-group-item text-white bg-transparent">Dr. Milica Markovic (On Server</li>
+                            <li class="list-group-item text-white bg-transparent">Dr. Tracy Toups (On Server)</li>
+                            <li class="list-group-item text-white bg-transparent">Prof. Jay Mearns</li>
+
+                            
+                    </ul>
+                    <ul class="list-group">
+                            <h2 class="list-group-item">Mechanical Engineering</h2>
+                            <li class="list-group-item text-white bg-transparent">Mike Bell</li>
+
+                    </ul>
+                    <ul class="list-group">
+                            <h2 class="list-group-item">Civil Engineering</h2>
+                            <li class="list-group-item text-white bg-transparent">Dr. Ghazan Khan (CE Dept. Chair)</li>
+
+                    </ul>
                 
+                </div>
+                    
+                    
+                        
+                    
+                </div>
             </div>
         )
     }
