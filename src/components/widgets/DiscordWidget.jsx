@@ -13,7 +13,7 @@ class DiscordWidget extends React.Component {
                 <div className ="disc-widget">
                     <iframe className = "widget" 
                     src="https://discord.com/widget?id=355086293501214730&theme=dark" 
-                    width="325" 
+                    width="320" 
                     height="400" 
                     allowtransparency="true" 
                     frameborder="0" 

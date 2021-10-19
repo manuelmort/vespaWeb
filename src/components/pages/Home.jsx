@@ -19,9 +19,9 @@ class HomeIntroText extends React.Component {
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 g-9">
                     <div class="col">
-                        <div className= "card w-100 bg-transparent col px-md-5">
+                        <div className= "card w-100 bg-transparent col pt-5">
                             
-                            <div className= "mainIntro">
+                            <div className= "">
                             
                                 <h2>Sacramento State's official ECS students club</h2>
 
@@ -43,21 +43,29 @@ class HomeIntroText extends React.Component {
                         
                     </div>
                     
-                    <div class="col px-md-5">
-                        
-                        <DiscordWidget/>
-
-                    </div>
-                    
                     <div class="col">
-                        <Phone/>
+                        <div class="ml-5 pl-5 pt-3">
+                            <Phone/>
+                        </div>
+                        
+                        
+
                     </div>
 
-                    <div class="col ">
+                    
+                    
+                    <div class="col p-3">
+                        <div class="ml-4 pt-5">
+                            <DiscordWidget/>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col">
                 
                         <div className="card w-100 bg-transparent">
-                            <h2 className="card-body">Club features</h2>
-                            <ul class = "list-group">
+                            <h2 className="card-body pt-5">Club features</h2>
+                            <ul class = "list-group pl-3">
                                 <p class="list-group-item text-white bg-transparent" >Study sectors for ALL ECS majors</p>
                                 <p class="list-group-item text-white bg-transparent">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
                                 <p class="list-group-item text-white bg-transparent">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>

@@ -1,15 +1,17 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
+
+
 import { Form, Button, Card, Container } from 'react-bootstrap'
 
-function Signup()  {
+function Login()  {
 
     const emailRef = useRef()
     const passwordRef = useRef()
     const passwordConfirmRef = useRef()
 
     return (
-        <>  
-            <h1 className="d-flex align-items-center justify-content-center p-3">Coming Soon!</h1>
+        <div>  
+            <h3 className="d-flex align-items-center justify-content-center text-white">Coming Soon!</h3>
             <Container 
             className="d-flex align-items-center justify-content-center"
             style ={{minHeight: "100vh"}}
@@ -47,8 +49,8 @@ function Signup()  {
                     </div>
                 </div>
             </Container>
-        </>
+        </div>
     )
 }
 
-export default Signup
+export default Login

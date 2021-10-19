@@ -15,10 +15,11 @@ class Contacts extends Component {
                 
                 <Container 
                 className="d-flex align-items-center justify-content-center"
-                style ={{minHeight: "100vh"}}   >
-                    <div className ="card w-100 bg-dark" style ={{ maxWidth: "400px" }}>
+                style ={{minHeight: "100vh"}}
+                 >
+                    <div className ="card bg-dark" style={{maxWidth:"400px"}}>
 
-                        <img className="alex-robot" src ="alex-robot.jpg" alt="happy robot"></img>
+                        <img className="img-fluid w-100" src ="alex-robot.jpg" alt="happy robot"></img>
 
                         <div class="card-body">
                             <h1 class="card-title">Email Us!</h1>

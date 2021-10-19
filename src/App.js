@@ -9,7 +9,7 @@ import "./App.css"
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contacts from "./components/pages/Contacts";
-import Signup from "./components/pages/Signup";
+import Login from "./components/pages/Login";
 
 
 
@@ -29,7 +29,7 @@ class App extends React.Component {
               <Route path ='/home' exact component={Home}/>
               <Route path ='/about' exact component={About}/>
               <Route path ='/contacts' exact component={Contacts}/>
-              <Route path = '/signup' exact component={Signup}/>
+              <Route path = '/login' exact component={Login}/>
 
             </Switch>
 
