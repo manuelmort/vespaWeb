@@ -3,7 +3,7 @@ body {
  
   
 }
-h1,h2 {
+h1,h2,h6 {
     background: linear-gradient(
       to right, 
       hsl(98 100% 62%), 

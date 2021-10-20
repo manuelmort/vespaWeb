@@ -1,6 +1,7 @@
 import React from "react"
 import { Switch, Route } from 'react-router-dom';
 import Navbar from "./components/NavbarComponent/Navbar";
+import Footer from "./components/widgets/Footer";
 
 
 
@@ -18,6 +19,8 @@ class App extends React.Component {
   render() {
     return (
       
+
+      <div>
         <div>
           
           
@@ -38,6 +41,11 @@ class App extends React.Component {
 
           
         </div>
+
+        <div class="pt-5">
+          <Footer/>
+        </div>
+      </div>
       
       
     )

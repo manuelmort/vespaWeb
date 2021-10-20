@@ -47,20 +47,12 @@ class Navbar extends React.Component {
                                                 })
                                             }
                     </ul>
-                    <a href= "https://www.facebook.com/CyberDyneACEVESPA.CSUS" target="_blank" rel="noopener noreferrer"
-                    class="text-white p-3">
-                        <FaFacebookF/>
-                    </a>
+                    
 
-                    <a href="https://www.linkedin.com/in/cyberdyne-vespa-72916321a/" target="_blank" rel="noopener noreferrer"
-                    class="text-white p-3">
-                        <FaLinkedinIn/>
-                    </a>
-                    <a href ="https://steamcommunity.com/groups/CyberAceCC" target="_blank" rel="noopener noreferrer"
-                    class="text-white p-3">
-                        <FaSteam/>
-                    </a>
+                    
+                    
                 </div>
+                
         </nav>
         )
     }   
