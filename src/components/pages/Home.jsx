@@ -1,5 +1,6 @@
 import React from "react";
 import DiscordWidget from "../widgets/DiscordWidget";
+import "./Home.css"
 import Phone from "./Phone"
 
 class HomeIntroText extends React.Component {
