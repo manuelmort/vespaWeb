@@ -66,13 +66,15 @@ class Clock extends Component {
     render() {
         return (
             <>
-                <div className="timeBox">
-                    <div className="date">
-                        <span>{this.renderDay()}</span>
-                    </div>
-                    <div className="time">
-                        <p> {this.state.time}</p>
-                        
+                <div className="container bg-dark rounded">
+                    <div class="p-3">
+                        <div className="">
+                            <span>{this.renderDay()}</span>
+                        </div>
+                        <div className="time">
+                            <p> {this.state.time}</p>
+                            
+                        </div>
                     </div>
                 </div>
             

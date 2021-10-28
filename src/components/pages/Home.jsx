@@ -1,12 +1,36 @@
 import React from "react";
 import DiscordWidget from "../widgets/DiscordWidget";
+import UserService from "../../services/user.service";
 import "./Home.css"
 import Phone from "./Phone"
 
 class HomeIntroText extends React.Component {
 
+    constructor(props) {
+        super(props);
+        
+        this.state = {
+            content: ""
+        };
+    }
 
-
+    componentDidMount() {
+        UserService.getPublicContent().then(
+            response => {
+                this.setState({
+                    content:response.data
+                })
+            },
+            error => {
+                this.setState({
+                    content:
+                        (error.response && error.response.data) ||
+                        error.message ||
+                        error.toString()
+                });
+            }
+        );
+    }
     render() {
         return(
             
@@ -75,7 +99,7 @@ class HomeIntroText extends React.Component {
                             </ul>
                         </div>
                     </div>
-            
+                    
 
                 </div>
             </div>

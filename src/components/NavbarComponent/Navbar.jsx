@@ -8,23 +8,54 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import "./Navbar.css"
+import AuthService from '../../services/auth.service';
 
 
-import { FaFacebookF, FaLinkedinIn ,FaSteam} from "react-icons/fa";
+import EventBus from "../../common/EventBus";
 
 
 
 class Navbar extends React.Component {
 
-    state = {
-        clicked: false
-    }
-    handleClicked = () =>{
-        this.setState({clicked: !this.state.clicked})
-    }
+    constructor(props) {
+        super(props);
+        this.logOut = this.logOut.bind(this);
+    
+        this.state = {
+          showModeratorBoard: false,
+          showAdminBoard: false,
+          currentUser: undefined,
+        };
+      }
+      
+      componentDidMount() {
+        const user = AuthService.getCurrentUser();
+    
+        if (user) {
+          this.setState({
+            currentUser: user,
+            showModeratorBoard: user.roles.includes("ROLE_MODERATOR"),
+            showAdminBoard: user.roles.includes("ROLE_ADMIN"),
+          });
+        }
+
+        EventBus.on("logout", () => {
+            this.logOut();
+        });
+      
+      }
+      componentWillUnmount() {
+        EventBus.remove("logout");
+      }
+    
+      logOut() {
+        AuthService.logout();
+      }
   
     
     render() {
+        const { currentUser, showModeratorBoard, showAdminBoard } = this.state;
+
         return(
             <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
                 <a class="navbar-brand" href="/home">
@@ -42,16 +73,60 @@ class Navbar extends React.Component {
                                                         <Link class="nav-link text-white p-3"  to={item.url}>
                                                                 {item.title}
                                                             </Link> 
+                                                            
+                                                        
                                                         </li>
+                                                        
                                                     )
                                                 })
                                             }
+                                            {showModeratorBoard && (
+                                                <li class ="nav-item">
+                                                    <Link class="nav-link text-white p-3">Moderator</Link>
+                                                </li>
+                                            )}
+                                            {showAdminBoard && (
+                                                <li class ="nav-item">
+                                                    <Link class="nav-link text-white p-3">Admin</Link>
+                                                </li>
+                                            )} 
+                                            
+                                           
                     </ul>
                     
+                    
+                    {currentUser ? (
+                    
+                        <div>
+                            <ul class ="navbar-nav  mb-2 mb-lg-9">
+                                <li className = "nav-item text-white">
+                                    <Link to = {"/profile"} className="nav-link text-white p-3">{currentUser.username}</Link>
+
+                                </li>
+                                <li className="nav-item">
+                                    <a href="/login" className="nav-link text-white p-3" onClick={this.logOut}>
+                                            LogOut
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    ): (
+                        <ul class="navbar-nav  mb-2 mb-lg-9">
+                        <li class="nav-item text-white">
+                            <Link to={"/login"} class="nav-link text-white p-3">Login</Link>
+                             
+                        </li>
+                        <li class="nav-item text-white">
+                             <Link to={"/signup"} class="nav-link text-white p-3">Signup</Link> 
+                        </li>
+                    </ul>
+                    )}
 
                     
                     
+                    
                 </div>
+                
                 
         </nav>
         )

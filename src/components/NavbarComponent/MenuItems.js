@@ -15,10 +15,6 @@ export const MenuItems = [
         url: "/contacts",
         cName: "nav-links"
     },
-    {
-        title: 'Log In',
-        url: "/login",
-        cName: "nav-links"
-    }
+    
 ]
 
