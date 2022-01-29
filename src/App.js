@@ -8,6 +8,7 @@ import "./App.css"
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contacts from "./components/pages/Contacts";
+import Resources from "./components/pages/Resources";
 
 class App extends React.Component {
 
@@ -30,6 +31,7 @@ class App extends React.Component {
               <Route path ='/' exact component={Home}/>
               <Route path ='/home' exact component={Home}/>
               <Route path ='/about' exact component={About}/>
+              <Route path ='/resources' exact component={Resources}/>
               <Route path ='/contacts' exact component={Contacts}/>
              
 
