@@ -1,29 +1,10 @@
 body {
-  padding: 0;
- 
-  
+  background-color: #19191a;
+  width: 100vw;
+  min-height: 100vh;
 }
-h1,h2,h6 {
-    background: linear-gradient(
-      to right, 
-      hsl(98 100% 62%), 
-      hsl(204 100% 59%)
-    );
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-  }
 
-  
-  body {
-    background: hsl(204 100% 5%);
-    
-    
-  }
-  
-  h1,h2,h3,p {
-    font-family: "Dank Mono", ui-monospace, monospace;
-  }
-
-
+h1,h2,h3,h4,h5,p {
+  font-family: "Dank Mono", ui-monospace, monospace;
+}
   

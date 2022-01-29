@@ -1,6 +1,5 @@
 import React from "react";
 import DiscordWidget from "../widgets/DiscordWidget";
-import UserService from "../../services/user.service";
 import "./Home.css"
 import Phone from "./Phone"
 
@@ -14,23 +13,7 @@ class HomeIntroText extends React.Component {
         };
     }
 
-    componentDidMount() {
-        UserService.getPublicContent().then(
-            response => {
-                this.setState({
-                    content:response.data
-                })
-            },
-            error => {
-                this.setState({
-                    content:
-                        (error.response && error.response.data) ||
-                        error.message ||
-                        error.toString()
-                });
-            }
-        );
-    }
+
     render() {
         return(
             
@@ -38,7 +21,7 @@ class HomeIntroText extends React.Component {
             <div class="container">
 
                 <div className="card w-100 bg-transparent p-3">
-                    <h1 className= "">Welcome to CyberDyne VESPA & ACE VESPA</h1>
+                    <h1 className= " text-success">Welcome to CyberDyne VESPA & ACE VESPA</h1>
                     
 
                 </div>
@@ -48,14 +31,14 @@ class HomeIntroText extends React.Component {
                             
                             <div className= "">
                             
-                                <h2>Sacramento State's official ECS students club</h2>
+                                <h2 className="text-primary">Sacramento State's official ECS students club</h2>
 
-                                <h3 class="list-group-item text-white bg-transparent">As the official student club for ECS majored students, we as representatives of CyberDyne VESPA seek to provide:</h3>
-                                <ul class = "list-group">
-                                    <p class="list-group-item text-white bg-transparent">A <span className="colorHighlight">Community for ECS Majors</span> to learn each other's major's skillsets without the need of multi-majoring</p>
-                                    <p class="list-group-item text-white bg-transparent">A friendly place were students can learn to do more with skillsets they already have.</p>
-                                    <p class="list-group-item text-white bg-transparent">Neccessary career helps for students to ensure a better chance at success in a growing market.</p>
-                                    <p class="list-group-item text-white bg-transparent">A relaxing and fun zone for ECS Majors to kickback, relax, enjoy healthy Japanese Media (Anime, Manga, etc.), or go gaming!</p>
+                                <h4 class="list-group-item text-white bg-transparent mt-3">As the official student club for ECS majored students, we as representatives of CyberDyne VESPA seek to provide:</h4>
+                                <ul class = "list-group bg-dark mt-5">
+                                    <p class="list-group-item text-white bg-dark">A <span className="colorHighlight">Community for ECS Majors</span> to learn each other's major's skillsets without the need of multi-majoring</p>
+                                    <p class="list-group-item text-white bg-dark">A friendly place were students can learn to do more with skillsets they already have.</p>
+                                    <p class="list-group-item text-white bg-dark">Neccessary career helps for students to ensure a better chance at success in a growing market.</p>
+                                    <p class="list-group-item text-white bg-dark">A relaxing and fun zone for ECS Majors to kickback, relax, enjoy healthy Japanese Media (Anime, Manga, etc.), or go gaming!</p>
                                 </ul>
 
                             
@@ -89,13 +72,13 @@ class HomeIntroText extends React.Component {
                     <div class="col">
                 
                         <div className="card w-100 bg-transparent">
-                            <h2 className="card-body pt-5">Club features</h2>
+                            <h2 className="card-body pt-5 text-primary">Club features</h2>
                             <ul class = "list-group pl-3">
-                                <p class="list-group-item text-white bg-transparent" >Study sectors for ALL ECS majors</p>
-                                <p class="list-group-item text-white bg-transparent">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
-                                <p class="list-group-item text-white bg-transparent">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>
-                                <p class="list-group-item text-white bg-transparent">Homework/Projects helps (within the rules of Sac State)</p>
-                                <p class="list-group-item text-white bg-transparent">Career helps such as resume review/advice, internship/job offers</p>
+                                <p class="list-group-item text-white bg-dark " >Study sectors for ALL ECS majors</p>
+                                <p class="list-group-item text-white bg-dark ">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
+                                <p class="list-group-item text-white bg-dark ">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>
+                                <p class="list-group-item text-white bg-dark">Homework/Projects helps (within the rules of Sac State)</p>
+                                <p class="list-group-item text-white bg-dark ">Career helps such as resume review/advice, internship/job offers</p>
                             </ul>
                         </div>
                     </div>

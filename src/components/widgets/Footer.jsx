@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn ,FaSteam} from "react-icons/fa";
 
 
 export default function Footer() {
@@ -20,9 +19,7 @@ export default function Footer() {
                         <a  href ="https://steamcommunity.com/groups/CyberAceCC" class="tw-ic text-white">
                             <i class="fab fa-steam fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                         </a>
-                        <a class="gplus-ic text-white">
-                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
+                        
                         <a href="https://www.linkedin.com/in/cyberdyne-vespa-72916321a/" class="li-ic text-white">
                             <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                         </a>
@@ -42,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div class="footer-copyright text-center py-3 text-white">© 2021 Copyright:
-            <a class="text-white"> CyberDyne Vespa</a>
+            <span class="text-white"> CyberDyne Vespa</span>
         </div>
 
         </footer>

@@ -7,10 +7,6 @@ import "./About.css"
 
 class Home extends React.Component {
 
-   
-
-
-
     render() {
         return(
             <div class="container p-5">
@@ -18,7 +14,7 @@ class Home extends React.Component {
 
                 <div class="row">
                     <div>
-                        <h1>
+                        <h1 className="text-success">
                             About Us
                         </h1>
                         <div>
@@ -32,13 +28,13 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div class="row p-3">
-                    <img class="img-fluid w-5" src="oldmanzero.png"/>
+                    <img class="img-fluid w-5" alt="cute-robot" src="oldmanzero.png"/>
                 </div>
                 <div class="row p-3">
                     
-                    <h1 class="list-group-item text-white bg-transparent">CyberDyne VESPA Faculty Supporters </h1>
+                    <h1 class="list-group-item bg-transparent text-success">CyberDyne VESPA Faculty Supporters </h1>
                     <ul class="list-group">
-                        <h2 class="list-group-item text-white bg-transparent">Computer Science</h2>
+                        <h2 class="list-group-item  bg-transparent text-primary">Computer Science</h2>
                         <div class="p-3">
                             <li class="list-group-item text-white bg-transparent">Anna Baynes (on Server)</li>
                             <li class="list-group-item text-white bg-transparent">Ruthann Biel</li>
@@ -56,7 +52,7 @@ class Home extends React.Component {
         
                     <ul class="list-group">
                         
-                        <h2 class="list-group-item text-white bg-transparent">Computer Engineering</h2>
+                        <h2 class="list-group-item  bg-transparent text-primary">Computer Engineering</h2>
                         <div class="p-3">
                             <li class="list-group-item text-white bg-transparent">Dennis Dahlquist (Our main Advisor; on Server)</li>
                             <li class="list-group-item text-white bg-transparent">Kris Moyer (Our IPC Advisor; on Server)</li>
@@ -67,7 +63,7 @@ class Home extends React.Component {
                 <div class="row p-3">
 
                     <ul class="list-group">
-                            <h2 class="list-group-item">Electrical Engineering</h2>
+                            <h2 class="list-group-item bg-transparent text-primary">Electrical Engineering</h2>
                             <div class="p-3">
                                 <li class="list-group-item text-white bg-transparent">Dr. Perry Heedley</li>
                                 <li class="list-group-item text-white bg-transparent">Dr. Milica Markovic (On Server</li>
@@ -78,14 +74,14 @@ class Home extends React.Component {
                             
                     </ul>
                     <ul class="list-group">
-                            <h2 class="list-group-item">Mechanical Engineering</h2>
+                            <h2 class="list-group-item bg-transparent text-primary">Mechanical Engineering</h2>
                             <div class="p-3">
                                 <li class="list-group-item text-white bg-transparent">Mike Bell</li>
                             </div>
 
                     </ul>
                     <ul class="list-group">
-                            <h2 class="list-group-item">Civil Engineering</h2>
+                            <h2 class="list-group-item bg-transparent text-primary">Civil Engineering</h2>
                             <div class="p-3">
                                 <li class="list-group-item text-white bg-transparent">Dr. Ghazan Khan (CE Dept. Chair)</li>
                             </div>
