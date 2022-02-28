@@ -14,7 +14,7 @@ class Home extends React.Component {
 
                 <div class="row">
                     <div>
-                        <h1 className="text-success">
+                        <h1 className="text-white">
                             About Us
                         </h1>
                         <div>
@@ -32,7 +32,7 @@ class Home extends React.Component {
                 </div>
                 <div class="row p-3">
                     
-                    <h1 class="list-group-item bg-transparent text-success">CyberDyne VESPA Faculty Supporters </h1>
+                    <h1 class="list-group-item bg-transparent text-white">CyberDyne VESPA Faculty Supporters </h1>
                     <ul class="list-group">
                         <h2 class="list-group-item  bg-transparent text-primary">Computer Science</h2>
                         <div class="p-3">

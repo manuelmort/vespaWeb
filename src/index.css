@@ -1,10 +1,16 @@
 body {
-  background-color: #00021c;
+  background-color: rgb(20, 20, 20);
   width: 100vw;
   min-height: 100vh;
 }
 
 h1,h2,h3,h4,h5,p {
   font-family: "Dank Mono", ui-monospace, monospace;
+  
+}
+
+h2{
+
+  color:rgb(0, 161, 37) ;
 }
   

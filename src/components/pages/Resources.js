@@ -7,13 +7,13 @@ export default class Resources extends React.Component {
 
     render() {
         return(
-            <div className ="container">
-                <div class="card-deck">
-                    <div class="card">
+            <div className ="container mt-3">
+                <div class="card-deck mt-3">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                            <h5 class="card-title">CPE</h5>
+                            <h5 class="card-title text-white">CPE</h5>
                            
-                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div className="text-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,10 +37,10 @@ export default class Resources extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                            <h5 class="card-title">CSC</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <h5 class="card-title text-white">CSC</h5>
+                            <p class="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 
                             <div className ="text-center">
@@ -80,10 +80,10 @@ export default class Resources extends React.Component {
                         </div>
                         
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                        <h5 class="card-title">EEE</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title text-white">EEE</h5>
+                        <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 
                         <div className ="text-center">
@@ -131,10 +131,10 @@ export default class Resources extends React.Component {
                     
                 </div>
                 <div class="card-deck mt-5">
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                        <h5 class="card-title">ENGR</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title text-white">ENGR</h5>
+                        <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         <div class="btn-group">
                                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -158,10 +158,10 @@ export default class Resources extends React.Component {
                             </div>                        
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                        <h5 class="card-title">CE</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title text-white">CE</h5>
+                        <p class="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         <div class="btn-group">
                                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -174,10 +174,10 @@ export default class Resources extends React.Component {
                             </div>                        
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                        <h5 class="card-title">CM</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title text-white">CM</h5>
+                        <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         <div class="btn-group">
                                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

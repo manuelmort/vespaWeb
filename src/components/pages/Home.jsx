@@ -21,7 +21,7 @@ class HomeIntroText extends React.Component {
             <div class="container">
 
                 <div className="card w-100 bg-transparent p-3">
-                    <h1 className= " text-primary">Welcome to CyberDyne VESPA & ACE VESPA</h1>
+                    <h1 className= "text-white">Welcome to CyberDyne VESPA & ACE VESPA</h1>
                     
 
                 </div>
@@ -31,7 +31,7 @@ class HomeIntroText extends React.Component {
                             
                             <div className= "">
                             
-                                <h2 className="text-success">Sacramento State's official ECS students club</h2>
+                                <h2 className="">Sacramento State's official ECS students club</h2>
 
                                 <ul class = "list-group bg-dark mt-5">
                                     <p class="list-group-item text-white bg-transparent">A <span className="colorHighlight">Community for ECS Majors</span> to learn each other's major's skillsets without the need of multi-majoring</p>
@@ -68,17 +68,22 @@ class HomeIntroText extends React.Component {
                             
                         </div>
 
-                        <div class="col mt-5">
-                    
-                            <div className="card w-100 bg-transparent mt-5">
-                                <h2 className="card-body pt-5 text-success">Club features</h2>
-                                <ul class = "list-group pl-3">
-                                    <p class="list-group-item text-white bg-transperant " >Study sectors for ALL ECS majors</p>
-                                    <p class="list-group-item text-white bg-transperant ">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
-                                    <p class="list-group-item text-white bg-transperant ">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>
-                                    <p class="list-group-item text-white bg-transperant ">Homework/Projects helps (within the rules of Sac State)</p>
-                                    <p class="list-group-item text-white bg-transperant ">Career helps such as resume review/advice, internship/job offers</p>
-                                </ul>
+                        <div className ="mt-5">
+
+                            <div class="col mt-5 bg-transperant">
+                            <h2 className="card-body pt-5 bg-transperant">Club features</h2>
+
+                                <div className="card w-100 bg-dark mt-3">
+                                    <ul class = "list-group pl-3 bg-dark">
+                                    
+                                        <p class="list-group-item text-white bg-dark " >Study sectors for ALL ECS majors</p>
+                                        <p class="list-group-item text-white bg-dark ">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
+                                        <p class="list-group-item text-white bg-dark ">Warp zone to other clubs such as ACM, IEEE, Cyber Defense ...</p>
+                                        <p class="list-group-item text-white bg-dark ">Homework/Projects helps (within the rules of Sac State)</p>
+                                        <p class="list-group-item text-white bg-dark ">Career helps such as resume review/advice, internship/job offers</p>
+                                    
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     

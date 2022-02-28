@@ -21,7 +21,7 @@ class Navbar extends React.Component {
          
                 <div>
                     <nav class="navbar navbar-expand-lg navbar-light bg-transperant">
-                    <a class="navbar-brand " href="/">CyberDyne Vespa</a>
+                    <a class="navbar-brand text-light " href="/">CyberDyne Vespa</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -30,13 +30,13 @@ class Navbar extends React.Component {
                             <ul class="navbar-nav mr-auto">
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
+                                <a class="nav-link text-light" href="/about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/resources">Resources</a>
+                                <a class="nav-link text-light" href="/resources">Resources</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/contacts">Contacts</a>
+                                <a class="nav-link text-light" href="/contacts">Contacts</a>
                             </li>
                            
                            
