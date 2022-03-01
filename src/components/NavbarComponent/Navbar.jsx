@@ -20,7 +20,7 @@ class Navbar extends React.Component {
         return(
          
                 <div>
-                    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-transperant">
+                    <nav class="navbar navbar-expand-lg fixed-top navbar-inverse" style={{backgroundColor:"rgb(20, 20, 20)"}}>
                     <a class="navbar-brand text-light " href="/">CyberDyne Vespa</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

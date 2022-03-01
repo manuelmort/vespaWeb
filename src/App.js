@@ -23,8 +23,8 @@ class App extends React.Component {
       <div>
         <div>
           
-          
-            <Navbar/>
+            
+          <Navbar/>
           
             
             <Switch>
