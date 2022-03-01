@@ -13,7 +13,7 @@ export default class Resources extends React.Component {
                         <div class="card-body">
                             <h5 class="card-title text-white">CPE</h5>
                            
-                             <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                             <p class="card-text text-white">Computer Engineering Channels</p>
                             <div className="text-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,7 +40,7 @@ export default class Resources extends React.Component {
                     <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title text-white">CSC</h5>
-                            <p class="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text text-white">Computer Science Channels</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 
                             <div className ="text-center">
@@ -83,7 +83,7 @@ export default class Resources extends React.Component {
                     <div class="card bg-dark">
                         <div class="card-body">
                         <h5 class="card-title text-white">EEE</h5>
-                        <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text text-white">Electrical and Electronic Engineering Channels</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 
                         <div className ="text-center">
@@ -134,7 +134,7 @@ export default class Resources extends React.Component {
                     <div class="card bg-dark">
                         <div class="card-body">
                         <h5 class="card-title text-white">ENGR</h5>
-                        <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text text-white">General Engineering Channels</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         <div class="btn-group">
                                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -158,38 +158,8 @@ export default class Resources extends React.Component {
                             </div>                        
                         </div>
                     </div>
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                        <h5 class="card-title text-white">CE</h5>
-                        <p class="card-text text-white">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <div class="btn-group">
-                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    CPE Channels
-                                </button>
-                                <div class="dropdown-menu">
-                                    
-                                    
-                                </div>
-                            </div>                        
-                        </div>
-                    </div>
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                        <h5 class="card-title text-white">CM</h5>
-                        <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <div class="btn-group">
-                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    CM channels
-                                </button>
-                                <div class="dropdown-menu">
-                                    
-                                    
-                                </div>
-                            </div>                        
-                        </div>
-                    </div>
+                   
+                   
                     
                 </div>
             </div>
