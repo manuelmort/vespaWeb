@@ -11,9 +11,9 @@ export default class Resources extends React.Component {
                 <div class="card-deck mt-3">
                     <div class="card bg-dark">
                         <div class="card-body">
-                            <h5 class="card-title text-white">CPE</h5>
+                            <h5 class="card-title text-light">CPE</h5>
                            
-                             <p class="card-text text-white">Computer Engineering Texts</p>
+                             <p class="card-text text-light">Computer Engineering Texts</p>
                              <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
 
                             <div className="text-center">
@@ -34,8 +34,8 @@ export default class Resources extends React.Component {
                     </div>
                     <div class="card bg-dark">
                         <div class="card-body">
-                            <h5 class="card-title text-white">CSC</h5>
-                            <p class="card-text text-white">Computer Science Texts</p>
+                            <h5 class="card-title text-light">CSC</h5>
+                            <p class="card-text text-light">Computer Science Texts</p>
                             <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
 
                             <div className ="text-center">
@@ -68,8 +68,8 @@ export default class Resources extends React.Component {
                     </div>
                     <div class="card bg-dark">
                         <div class="card-body">
-                        <h5 class="card-title text-white">EEE</h5>
-                        <p class="card-text text-white">Electrical and Electronic Engineering Texts</p>
+                        <h5 class="card-title text-light">EEE</h5>
+                        <p class="card-text text-light">Electrical and Electronic Engineering Texts</p>
                         <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
 
                         <div className ="text-center">

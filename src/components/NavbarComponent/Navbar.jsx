@@ -19,26 +19,30 @@ class Navbar extends React.Component {
 
         return(
          
-                <div>
-                    <nav class="navbar navbar-expand-lg fixed-top navbar-inverse" style={{backgroundColor:"rgb(20, 20, 20)"}}>
-                    <a class="navbar-brand text-light " href="/">CyberDyne Vespa</a>
+                <div className = "">
+                    <nav class="navbar navbar-expand-lg bg-light fixed-top navbar-inverse">
+                    <a class="navbar-brand text-dark " href="/">CyberDyne Vespa</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     
-                        <span class="navbar-toggler-icon text-light mr-3"> <AiOutlineMenu/></span>
+                        <span class="navbar-toggler-icon text-dark mr-3"> <AiOutlineMenu/></span>
                         
                     </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/Bulletin">Bulletin</a>
+                            </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="/about">About</a>
+                                <a class="nav-link text-dark" href="/about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="/resources">Resources</a>
+                                <a class="nav-link text-dark" href="/resources">Resources</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="/contacts">Contacts</a>
+                                <a class="nav-link text-dark" href="/contacts">Contacts</a>
                             </li>
                            
                            

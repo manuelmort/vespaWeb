@@ -9,6 +9,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contacts from "./components/pages/Contacts";
 import Resources from "./components/pages/Resources";
+import Bulletin from "./components/pages/Bulletin";
 
 class App extends React.Component {
 
@@ -20,8 +21,8 @@ class App extends React.Component {
       
 
 
-      <div>
-        <div>
+      <div className ="">
+        <div className = "bg-light">
           
             
           <Navbar/>
@@ -33,6 +34,7 @@ class App extends React.Component {
               <Route path ='/about' exact component={About}/>
               <Route path ='/resources' exact component={Resources}/>
               <Route path ='/contacts' exact component={Contacts}/>
+              <Route path ='/bulletin' exact component={Bulletin}/>
              
 
             </Switch>
