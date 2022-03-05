@@ -10,90 +10,69 @@ class Home extends React.Component {
     render() {
         return(
             <div class="container p-5">
-                <div className="row row-cols-1 row-cols-md-2 g-9">
 
+
+                <div>
+                    <h1>About us</h1>
+                    <p>under construction</p>
+                </div>
                 <div class="row">
-                    <div>
-                        <h1 className="text-dark">
-                            About Us
-                        </h1>
-                        <div>
-                            <p class="text-dark p-3"> VESPA was established by Jeff Friere, a Sac State Computer Engineering Alumni on 07/28/17
-                            who transfered from Solano Community College. 
-                            </p>
-                            <p class="text-dark p-3">
-                                The original CyberDyne + ACE is called FALCO, which was created by the same person for Solano Community College.
-                            </p>
+
+                        <div className = "row">
+                            <div className="col-sm p-3">
+                                
+                                <div class="card" style={{width: "15rem"}}>
+                                    <img class="card-img-top" src="juan.jpg" alt="Card image cap"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title">President</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm p-3">
+                                
+                                <div class="card" style={{width: "15rem"}}>
+                                    <img class="card-img-top" src="juan.jpg" alt="Card image cap"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Vice president</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm p-3">
+                                
+                                <div class="card" style={{width: "15rem"}}>
+                                    <img class="card-img-top" src="juan.jpg" alt="Card image cap"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Secretary</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm p-3">
+                                
+                                <div class="card" style={{width: "15rem"}}>
+                                    <img class="card-img-top" src="juan.jpg" alt="Card image cap"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Treasurer</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                   
                 </div>
-                <div class="row p-3">
-                    <img class="img-fluid w-5" alt="cute-robot" src="oldmanzero.png"/>
-                </div>
-                <div class="row p-3">
-                    
-                    <h1 class="list-group-item bg-transparent text-dark">CyberDyne VESPA Faculty Supporters </h1>
-                    <ul class="list-group">
-                        <h2 class="list-group-item  bg-transparent text-primary">Computer Science</h2>
-                        <div class="p-3">
-                            <li class="list-group-item text-dark bg-transparent">Anna Baynes (on Server)</li>
-                            <li class="list-group-item text-dark bg-transparent">Ruthann Biel</li>
-                            <li class="list-group-item text-dark bg-transparent">Sankar Srivatsa</li>
-                            <li class="list-group-item text-dark bg-transparent">Ben White (Retired, but still here on Server)
-                            </li>
-                            <li class="list-group-item text-dark bg-transparent">Xiaoyan Sun</li>
-                            <li class="list-group-item text-dark bg-transparent">Jun Dai (was on server)</li>
-                            <li class="list-group-item text-dark bg-transparent">Gita Faroughi</li>
-                            <li class="list-group-item text-dark bg-transparent">Dr. Nikrouz Faroughi (CSC Dept. Chair) </li>
-                        </div>
-                    </ul>
 
 
-        
-                    <ul class="list-group">
-                        
-                        <h2 class="list-group-item  bg-transparent text-primary">Computer Engineering</h2>
-                        <div class="p-3">
-                            <li class="list-group-item text-dark bg-transparent">Dennis Dahlquist (Our main Advisor; on Server)</li>
-                            <li class="list-group-item text-dark bg-transparent">Kris Moyer (Our IPC Advisor; on Server)</li>
-                            <li class="list-group-item text-dark bg-transparent">Dr. Praveen Meduri (CPE Dept Chair; on Server)</li>
-                        </div> 
-                    </ul>
-                </div>
-                <div class="row p-3">
 
-                    <ul class="list-group">
-                            <h2 class="list-group-item bg-transparent text-primary">Electrical Engineering</h2>
-                            <div class="p-3">
-                                <li class="list-group-item text-dark bg-transparent">Dr. Perry Heedley</li>
-                                <li class="list-group-item text-dark bg-transparent">Dr. Milica Markovic (On Server</li>
-                                <li class="list-group-item text-dark bg-transparent">Dr. Tracy Toups (On Server)</li>
-                                <li class="list-group-item text-dark bg-transparent">Prof. Jay Mearns</li>
-                            </div>
-
-                            
-                    </ul>
-                    <ul class="list-group">
-                            <h2 class="list-group-item bg-transparent text-primary">Mechanical Engineering</h2>
-                            <div class="p-3">
-                                <li class="list-group-item text-dark bg-transparent">Mike Bell</li>
-                            </div>
-
-                    </ul>
-                    <ul class="list-group">
-                            <h2 class="list-group-item bg-transparent text-primary">Civil Engineering</h2>
-                            <div class="p-3">
-                                <li class="list-group-item text-dark bg-transparent">Dr. Ghazan Khan (CE Dept. Chair)</li>
-                            </div>
-                    </ul>
-                
-                </div>
-                    
-                    
-                        
-                    
-                </div>
             </div>
+
+
+           
         )
     }
 }
