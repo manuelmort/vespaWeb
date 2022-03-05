@@ -9,11 +9,11 @@ export default class Resources extends React.Component {
         return(
             <div className ="container mt-3">
                 <div class="card-deck mt-3">
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">CPE</h5>
+                    <div class="card bg-trasnparent">
+                        <div class="card-body bg-success bg-opacity-50">
+                            <h5 class="card-title  text-dark">CPE</h5>
                            
-                             <p class="card-text text-light">Computer Engineering Texts</p>
+                             <p class="card-text text-dark">Computer Engineering Texts</p>
                              <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
 
                             <div className="text-center">
@@ -32,10 +32,10 @@ export default class Resources extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">CSC</h5>
-                            <p class="card-text text-light">Computer Science Texts</p>
+                    <div class="card bg-transperant">
+                        <div class="card-body bg-success bg-opacity-50">
+                            <h5 class="card-title text-dark">CSC</h5>
+                            <p class="card-text text-dark">Computer Science Texts</p>
                             <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
 
                             <div className ="text-center">
@@ -66,10 +66,10 @@ export default class Resources extends React.Component {
                         </div>
                         
                     </div>
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                        <h5 class="card-title text-light">EEE</h5>
-                        <p class="card-text text-light">Electrical and Electronic Engineering Texts</p>
+                    <div class="card bg-transparentk">
+                        <div class="card-body bg-success bg-opacity-50">
+                        <h5 class="card-title text-dark">EEE</h5>
+                        <p class="card-text text-dark">Electrical and Electronic Engineering Texts</p>
                         <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
 
                         <div className ="text-center">
@@ -91,10 +91,10 @@ export default class Resources extends React.Component {
                     
                 </div>
                 <div class="card-deck mt-5">
-                    <div class="card bg-dark">
-                        <div class="card-body">
-                        <h5 class="card-title text-white">ENGR</h5>
-                        <p class="card-text text-white">General Engineering Texts</p>
+                    <div class="card bg-transperant">
+                        <div class="card-body bg-success bg-opacity-50">
+                        <h5 class="card-title text-dark">ENGR</h5>
+                        <p class="card-text text-dark">General Engineering Texts</p>
                         <p class="card-text"><small class="text-muted">Last updated: 2/28/2022</small></p>
                         <div class="btn-group">
                                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
