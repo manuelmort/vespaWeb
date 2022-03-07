@@ -25,20 +25,22 @@ export default class Bulletin extends React.Component {
                             <div className=" container bg-success bg-opacity-50 rounded shadow">
                                 <div className ="container p-3">
                                     <h3 className="text-dark">
-                                        Club Meeting #1 + Open House Day
+                                        Skribbl.io Game Night!
                                         
                                     </h3>
                                     <h4 className="text-dark">
-                                        March 04, 2022
+                                        Friday March 11, 2022
                                     </h4>
 
-                                    <p>This Friday we will be holding our first Open House, We will be introducing the rework of Cyberdyne-Vespa for the second generation.</p>
-                                    <p>Zoom Link: <a href="https://csus.zoom.us/j/83342068072">
+                                    <p>This Friday we will be hosting a game night event for those wanting to meet friends in the ECS discord and have fun.</p>
+                                    <p>Zoom Link: <a href="https://discord.com/channels/355086293501214730/492061244061253652">
                                             <button className ="btn btn-primary">
-                                                Zoom Session
+                                                Discord Channel Link
                                             </button>
                                         </a>
                                     </p>
+                                    <p>Game: Skirbbl.io</p>
+                                    <p>Description: skribbl io is a free multiplayer drawing and guessing game. Draw and guess words with your friends and people all around the world!</p>
                                 </div>
                                 
 

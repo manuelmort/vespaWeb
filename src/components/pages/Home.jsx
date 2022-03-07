@@ -68,13 +68,13 @@ class HomeIntroText extends React.Component {
                             
                         </div>
 
-                        <div className ="mt-5">
+                        <div className ="mt-5 pt-5">
 
                             <div class="col mt-5 bg-transparent ">
-                            <h2 className="card-body pt-5 bg-transperant">Club features</h2>
+                            <h2 className="card-body pt-5 mt-5 bg-transperant">Club features</h2>
 
                                 
-                                    <ul class = "list-group bg-success bg-opacity-50 mt-5 shadow">
+                                    <ul class = "list-group bg-success bg-opacity-50 mt-3 shadow">
                                     
                                         <p class="list-group-item text-dark bg-transparent" >Study sectors for ALL ECS majors</p>
                                         <p class="list-group-item text-dark bg-transparent ">More than <span class="colorHighlight">1000 members</span> across all ECS majors</p>
