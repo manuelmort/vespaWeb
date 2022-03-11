@@ -64,11 +64,13 @@ class Home extends React.Component {
                             <div className="col-sm p-3">
                                 
                                 <div class="card" style={{width: "15rem"}}>
-                                    <img class="card-img-top" src="juan.jpg" alt="Card image cap"></img>
+                                    <img class="card-img-top" src="rosieFake.jpeg" style={{minHeight:"275px"}} alt="Card image cap"></img>
                                     <div class="card-body">
-                                        <h5 class="card-title">Treasurer</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Public Affairs</h5>
+                                        <h6 class="card-text">Rosemary</h6>
+                                        <p class="card-text">Status: Junior Year</p>
+ 
+                                        <p class="card-text"> Major: Computer Science</p>                                        <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                                 </div>
                             </div>
