@@ -1,0 +1,17 @@
+body {
+  background-color:#f8f9fa;
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+h1,h2,h3,h4,h5,p {
+  font-family: 'Helvetica';
+  
+}
+
+h2{
+
+  color:rgb(0, 161, 37) ;
+}
+  
