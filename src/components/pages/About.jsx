@@ -9,7 +9,7 @@ class Home extends React.Component {
 
     render() {
         return(
-            <div class="container p-5">
+            <div class="container-fluid">
 
 
                 <div>
@@ -21,7 +21,7 @@ class Home extends React.Component {
                         <div className = "row">
                             <div className="col-sm p-3">
                                 
-                                <div class="card" style={{width: "15rem"}}>
+                                <div class="card shadow" style={{width: "15rem"}}>
                                     <img class="card-img-top" src="jeff.jpg" alt="Card image cap" style={{minHeight:"275px"}}></img>
                                     <div class="card-body">
                                         <h5 class="card-title">Founder of Vespa</h5>
@@ -34,7 +34,7 @@ class Home extends React.Component {
                             </div>
                             <div className="col-sm p-3">
                                 
-                                <div class="card" style={{width: "15rem"}}>
+                                <div class="card shadow" style={{width: "15rem"}}>
                                     <img class="card-img-top" src="lonnie1.png" alt="Card image cap" style={{minHeight:"275px"}}></img>
                                     <div class="card-body">
                                         <h5 class="card-title">On-Campus President</h5>
@@ -47,7 +47,7 @@ class Home extends React.Component {
                             </div>
                             <div className="col-sm p-3">
                                 
-                                <div class="card" style={{width: "15rem"}}>
+                                <div class="card shadow" style={{width: "15rem"}}>
                                     <img class="card-img-top" src="juan.jpg" alt="Card image cap" style={{maxHeight:"300px"}}></img>
                                     <div class="card-body">
                                         <h5 class="card-title">Vice president</h5>
@@ -62,14 +62,12 @@ class Home extends React.Component {
                             </div>
                            
                             <div className="col-sm p-3">
-                                
-                                <div class="card" style={{width: "15rem"}}>
+                                <div class="card shadow" style={{width: "15rem"}}>
                                     <img class="card-img-top" src="rosieFake.jpeg" style={{minHeight:"275px"}} alt="Card image cap"></img>
                                     <div class="card-body">
                                         <h5 class="card-title">Public Affairs</h5>
                                         <h6 class="card-text">Rosemary</h6>
                                         <p class="card-text">Status: Junior Year</p>
- 
                                         <p class="card-text"> Major: Computer Science</p>                                        <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                                 </div>

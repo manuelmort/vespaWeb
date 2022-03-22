@@ -18,10 +18,12 @@ class HomeIntroText extends React.Component {
         return(
             
 
-            <div class="container bg-light">
+            <div class="container bg-opacity-25 bg-image" >
+                
+                
 
                 <div className="card w-100 bg-transparent p-3">
-                    <h1 className= "text-dark">Welcome to CyberDyne VESPA & ACE VESPA</h1>
+                    <h1 className= "text-dark">Welcome to CyberDyne VESPA</h1>
                     
 
                 </div>

@@ -7,9 +7,9 @@ import Footer from "./components/widgets/Footer";
 import "./App.css"
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Contacts from "./components/pages/Contacts";
 import Resources from "./components/pages/Resources";
 import Bulletin from "./components/pages/Bulletin";
+import Tutorial from "./components/pages/Tutorial";
 
 class App extends React.Component {
 
@@ -33,8 +33,9 @@ class App extends React.Component {
               <Route path ='/home' exact component={Home}/>
               <Route path ='/about' exact component={About}/>
               <Route path ='/resources' exact component={Resources}/>
-              <Route path ='/contacts' exact component={Contacts}/>
+              <Route path ='/tutorial' exact component={Tutorial}/>
               <Route path ='/bulletin' exact component={Bulletin}/>
+
              
 
             </Switch>
