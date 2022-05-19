@@ -10,6 +10,7 @@ import About from "./components/pages/About";
 import Resources from "./components/pages/Resources";
 import Bulletin from "./components/pages/Bulletin";
 import Tutorial from "./components/pages/Tutorial";
+import Calculator from "./components/pages/Calculator";
 
 class App extends React.Component {
 
@@ -35,6 +36,8 @@ class App extends React.Component {
               <Route path ='/resources' exact component={Resources}/>
               <Route path ='/tutorial' exact component={Tutorial}/>
               <Route path ='/bulletin' exact component={Bulletin}/>
+              <Route path ='/calculator' exact component={Calculator}/>
+
 
              
 

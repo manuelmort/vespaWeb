@@ -12,6 +12,7 @@ class HomeIntroText extends React.Component {
             content: ""
         };
     }
+    
 
 
     render() {
