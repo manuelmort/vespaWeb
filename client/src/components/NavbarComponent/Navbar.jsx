@@ -19,8 +19,8 @@ class Navbar extends React.Component {
 
         return(
          
-                <div className = "">
-                    <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-inverse">
+                <div className = "bg-light">
+                    <nav class="navbar navbar-expand-lg bg-light fixed-top navbar-inverse">
                     <a class="navbar-brand text-dark " href="/">CyberDyne Vespa</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     
